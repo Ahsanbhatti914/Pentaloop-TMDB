@@ -2,7 +2,7 @@ package com.example.tmdbexplorer.repository
 
 import com.example.tmdbexplorer.Models.AllMovies.PopularMovieResults
 import com.example.tmdbexplorer.Models.MovieByID.MovieById
-import com.example.tmdbexplorer.MovieApi
+import com.example.tmdbexplorer.api.MovieApi
 import com.example.tmdbexplorer.interfaces.IMovie
 
 

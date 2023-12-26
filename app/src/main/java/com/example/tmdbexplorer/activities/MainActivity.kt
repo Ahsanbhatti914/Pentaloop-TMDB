@@ -1,4 +1,4 @@
-package com.example.tmdbexplorer
+package com.example.tmdbexplorer.activities
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity

@@ -15,7 +15,7 @@ import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.tmdbexplorer.Models.AllMovies.PopularMovie
-import com.example.tmdbexplorer.MovieDetailsActivity
+import com.example.tmdbexplorer.activities.MovieDetailsActivity
 import com.example.tmdbexplorer.R
 import java.time.Year
 
@@ -50,7 +50,7 @@ class MovieAdapter (private var moviesList: List<PopularMovie>, private val cont
         }
 
         holder.posterImage.setOnClickListener {
-            val intent = Intent(context,MovieDetailsActivity::class.java)
+            val intent = Intent(context, MovieDetailsActivity::class.java)
             intent.putExtra("MOVIE_ID",moviesList[position].id.toString())
             context.startActivity(intent)
         }

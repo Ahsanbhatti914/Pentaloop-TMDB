@@ -1,23 +1,13 @@
-package com.example.tmdbexplorer
+package com.example.tmdbexplorer.activities
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import com.bumptech.glide.Glide
-import com.example.tmdbexplorer.Models.MovieByID.MovieById
-import com.example.tmdbexplorer.databinding.ActivityMainBinding
 import com.example.tmdbexplorer.databinding.ActivityMovieDetailsBinding
-import com.example.tmdbexplorer.repository.MovieRepository
 import com.example.tmdbexplorer.viewmodels.MovieDetailsViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class MovieDetailsActivity : AppCompatActivity() {
     private val viewModel:MovieDetailsViewModel by viewModels()

@@ -1,8 +1,7 @@
-package com.example.tmdbexplorer
+package com.example.tmdbexplorer.api
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
